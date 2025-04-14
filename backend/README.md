@@ -23,3 +23,8 @@ A trading workstation that interfaces with Interactive Brokers API for market da
 - Data conversion to pandas DataFrame
 - CSV export capability
 - Real-time market data streaming
+
+## Visualizations
+
+![Figure 1](Figure_1.png)
+![Figure 2](Figure_2.png)
