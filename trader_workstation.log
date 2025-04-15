@@ -1,0 +1,181 @@
+2025-04-16 02:48:12,054 - TraderWorkstation - INFO - Starting Trader Workstation application
+2025-04-16 02:48:12,054 - TraderWorkstation - INFO - Initializing PTLClient with host=127.0.0.1, port=7497, client_id=1
+2025-04-16 02:48:12,068 - TraderWorkstation - INFO - PTLClient thread started
+2025-04-16 02:48:12,071 - TraderWorkstation - DEBUG - Chart instance created
+2025-04-16 02:48:12,071 - TraderWorkstation - DEBUG - Received next valid order ID: 1
+2025-04-16 02:48:12,071 - TraderWorkstation - INFO - Loading initial chart for TSM
+2025-04-16 02:48:12,071 - TraderWorkstation - INFO - IB API Info: Market data farm connection is OK:usfarm.nj
+2025-04-16 02:48:12,071 - TraderWorkstation - INFO - Requesting bar data for symbol=TSM, timeframe=5 mins
+2025-04-16 02:48:12,071 - TraderWorkstation - INFO - IB API Info: Market data farm connection is OK:usfuture
+2025-04-16 02:48:12,071 - TraderWorkstation - DEBUG - Sending historical data request for TSM
+2025-04-16 02:48:12,071 - TraderWorkstation - INFO - IB API Info: Market data farm connection is OK:cashfarm
+2025-04-16 02:48:12,071 - TraderWorkstation - INFO - IB API Info: Market data farm connection is OK:usfarm
+2025-04-16 02:48:12,071 - TraderWorkstation - INFO - IB API Info: HMDS data farm connection is OK:cashhmds
+2025-04-16 02:48:12,071 - TraderWorkstation - INFO - IB API Info: HMDS data farm connection is OK:ushmds
+2025-04-16 02:48:12,071 - TraderWorkstation - INFO - IB API Info: Sec-def data farm connection is OK:secdefnj
+2025-04-16 02:48:13,077 - TraderWorkstation - INFO - Running market scanner
+2025-04-16 02:48:13,144 - TraderWorkstation - ERROR - IB API Error 492: You must subscribe for additional permissions to obtain precise results for scanner.Parameter:Hot Contracts by Volume,Filter:Option Volume;Real-Time Market Data:NYSE, AMEX, ARCA, NMS, Small Cap, BATS (req_id=7002)
+2025-04-16 02:48:13,670 - TraderWorkstation - ERROR - IB API Error 2176: Warning: Your API version does not support fractional share size rules. Please upgrade to a minimum version 163. Trimmed value 8037.55 to 8037 (req_id=2)
+2025-04-16 02:48:14,081 - TraderWorkstation - INFO - Showing chart
+2025-04-16 02:48:14,082 - TraderWorkstation - ERROR - IB API Error 162: Historical Market Data Service error message:API scanner subscription cancelled: 7002 (req_id=7002)
+2025-04-16 02:48:38,226 - TraderWorkstation - INFO - Requesting bar data for symbol=TSM, timeframe=15 mins
+2025-04-16 02:48:38,226 - TraderWorkstation - DEBUG - Sending historical data request for TSM
+2025-04-16 02:48:53,519 - TraderWorkstation - INFO - Requesting bar data for symbol=TSM, timeframe=1 hour
+2025-04-16 02:48:53,519 - TraderWorkstation - DEBUG - Sending historical data request for TSM
+2025-04-16 02:48:58,719 - TraderWorkstation - INFO - Requesting bar data for symbol=TSM, timeframe=15 mins
+2025-04-16 02:48:58,719 - TraderWorkstation - DEBUG - Sending historical data request for TSM
+2025-04-16 02:48:59,876 - TraderWorkstation - INFO - Requesting bar data for symbol=TSM, timeframe=5 mins
+2025-04-16 02:48:59,876 - TraderWorkstation - DEBUG - Sending historical data request for TSM
+2025-04-16 02:50:17,732 - TraderWorkstation - INFO - Starting Trader Workstation application
+2025-04-16 02:50:17,732 - TraderWorkstation - INFO - Initializing PTLClient with host=127.0.0.1, port=7497, client_id=1
+2025-04-16 02:50:17,747 - TraderWorkstation - INFO - PTLClient thread started
+2025-04-16 02:50:17,750 - TraderWorkstation - DEBUG - Chart instance created
+2025-04-16 02:50:17,750 - TraderWorkstation - DEBUG - Received next valid order ID: 1
+2025-04-16 02:50:17,750 - TraderWorkstation - INFO - Loading initial chart for TSM
+2025-04-16 02:50:17,750 - TraderWorkstation - INFO - IB API Info: Market data farm connection is OK:usfarm.nj
+2025-04-16 02:50:17,750 - TraderWorkstation - INFO - Requesting bar data for symbol=TSM, timeframe=5 mins
+2025-04-16 02:50:17,750 - TraderWorkstation - INFO - IB API Info: Market data farm connection is OK:usfuture
+2025-04-16 02:50:17,750 - TraderWorkstation - DEBUG - Sending historical data request for TSM
+2025-04-16 02:50:17,750 - TraderWorkstation - INFO - IB API Info: Market data farm connection is OK:cashfarm
+2025-04-16 02:50:17,750 - TraderWorkstation - INFO - IB API Info: Market data farm connection is OK:usfarm
+2025-04-16 02:50:17,750 - TraderWorkstation - INFO - IB API Info: HMDS data farm connection is OK:cashhmds
+2025-04-16 02:50:17,750 - TraderWorkstation - INFO - IB API Info: HMDS data farm connection is OK:ushmds
+2025-04-16 02:50:17,750 - TraderWorkstation - INFO - IB API Info: Sec-def data farm connection is OK:secdefnj
+2025-04-16 02:50:18,755 - TraderWorkstation - INFO - Running market scanner
+2025-04-16 02:50:18,808 - TraderWorkstation - ERROR - IB API Error 492: You must subscribe for additional permissions to obtain precise results for scanner.Parameter:Hot Contracts by Volume,Filter:Option Volume;Real-Time Market Data:NYSE, AMEX, ARCA, NMS, Small Cap, BATS (req_id=7002)
+2025-04-16 02:50:19,371 - TraderWorkstation - ERROR - IB API Error 2176: Warning: Your API version does not support fractional share size rules. Please upgrade to a minimum version 163. Trimmed value 8037.55 to 8037 (req_id=2)
+2025-04-16 02:50:19,761 - TraderWorkstation - INFO - Showing chart
+2025-04-16 02:50:19,762 - TraderWorkstation - ERROR - IB API Error 162: Historical Market Data Service error message:API scanner subscription cancelled: 7002 (req_id=7002)
+2025-04-16 02:50:37,441 - TraderWorkstation - INFO - Starting Trader Workstation application
+2025-04-16 02:50:37,441 - TraderWorkstation - INFO - Initializing PTLClient with host=127.0.0.1, port=7497, client_id=1
+2025-04-16 02:50:37,448 - TraderWorkstation - INFO - PTLClient thread started
+2025-04-16 02:50:37,450 - TraderWorkstation - DEBUG - Received next valid order ID: 1
+2025-04-16 02:50:37,451 - TraderWorkstation - DEBUG - Chart instance created
+2025-04-16 02:50:37,450 - TraderWorkstation - INFO - IB API Info: Market data farm connection is OK:usfarm.nj
+2025-04-16 02:50:37,451 - TraderWorkstation - INFO - Loading initial chart for TSM
+2025-04-16 02:50:37,451 - TraderWorkstation - INFO - IB API Info: Market data farm connection is OK:usfuture
+2025-04-16 02:50:37,451 - TraderWorkstation - INFO - Requesting bar data for symbol=TSM, timeframe=5 mins
+2025-04-16 02:50:37,451 - TraderWorkstation - INFO - IB API Info: Market data farm connection is OK:cashfarm
+2025-04-16 02:50:37,451 - TraderWorkstation - DEBUG - Sending historical data request for TSM
+2025-04-16 02:50:37,451 - TraderWorkstation - INFO - IB API Info: Market data farm connection is OK:usfarm
+2025-04-16 02:50:37,451 - TraderWorkstation - INFO - IB API Info: HMDS data farm connection is OK:cashhmds
+2025-04-16 02:50:37,451 - TraderWorkstation - INFO - IB API Info: HMDS data farm connection is OK:ushmds
+2025-04-16 02:50:37,451 - TraderWorkstation - INFO - IB API Info: Sec-def data farm connection is OK:secdefnj
+2025-04-16 02:50:38,456 - TraderWorkstation - INFO - Running market scanner
+2025-04-16 02:50:38,515 - TraderWorkstation - ERROR - IB API Error 492: You must subscribe for additional permissions to obtain precise results for scanner.Parameter:Hot Contracts by Volume,Filter:Option Volume;Real-Time Market Data:NYSE, AMEX, ARCA, NMS, Small Cap, BATS (req_id=7002)
+2025-04-16 02:50:39,155 - TraderWorkstation - ERROR - IB API Error 2176: Warning: Your API version does not support fractional share size rules. Please upgrade to a minimum version 163. Trimmed value 8037.55 to 8037 (req_id=2)
+2025-04-16 02:50:39,461 - TraderWorkstation - INFO - Showing chart
+2025-04-16 02:50:39,462 - TraderWorkstation - ERROR - IB API Error 162: Historical Market Data Service error message:API scanner subscription cancelled: 7002 (req_id=7002)
+2025-04-16 02:50:56,236 - TraderWorkstation - INFO - Requesting bar data for symbol=TSM, timeframe=15 mins
+2025-04-16 02:50:56,237 - TraderWorkstation - DEBUG - Sending historical data request for TSM
+2025-04-16 02:53:07,745 - TraderWorkstation - INFO - Starting Trader Workstation application
+2025-04-16 02:53:07,745 - TraderWorkstation - INFO - Initializing PTLClient with host=127.0.0.1, port=7497, client_id=1
+2025-04-16 02:53:07,755 - TraderWorkstation - INFO - PTLClient thread started
+2025-04-16 02:53:07,761 - TraderWorkstation - DEBUG - Chart instance created
+2025-04-16 02:53:07,761 - TraderWorkstation - DEBUG - Received next valid order ID: 1
+2025-04-16 02:53:07,761 - TraderWorkstation - INFO - Loading initial chart for TSM
+2025-04-16 02:53:07,761 - TraderWorkstation - INFO - IB API Info: Market data farm connection is OK:usfarm.nj
+2025-04-16 02:53:07,762 - TraderWorkstation - INFO - Requesting bar data for symbol=TSM, timeframe=5 mins
+2025-04-16 02:53:07,762 - TraderWorkstation - INFO - IB API Info: Market data farm connection is OK:usfuture
+2025-04-16 02:53:07,762 - TraderWorkstation - DEBUG - Sending historical data request for TSM
+2025-04-16 02:53:07,762 - TraderWorkstation - INFO - IB API Info: Market data farm connection is OK:cashfarm
+2025-04-16 02:53:07,762 - TraderWorkstation - INFO - IB API Info: Market data farm connection is OK:usfarm
+2025-04-16 02:53:07,762 - TraderWorkstation - INFO - IB API Info: HMDS data farm connection is OK:cashhmds
+2025-04-16 02:53:07,762 - TraderWorkstation - INFO - IB API Info: HMDS data farm connection is OK:ushmds
+2025-04-16 02:53:07,762 - TraderWorkstation - INFO - IB API Info: Sec-def data farm connection is OK:secdefnj
+2025-04-16 02:53:08,767 - TraderWorkstation - INFO - Running market scanner
+2025-04-16 02:53:08,833 - TraderWorkstation - ERROR - IB API Error 492: You must subscribe for additional permissions to obtain precise results for scanner.Parameter:Hot Contracts by Volume,Filter:Option Volume;Real-Time Market Data:NYSE, AMEX, ARCA, NMS, Small Cap, BATS (req_id=7002)
+2025-04-16 02:53:09,363 - TraderWorkstation - ERROR - IB API Error 2176: Warning: Your API version does not support fractional share size rules. Please upgrade to a minimum version 163. Trimmed value 8037.55 to 8037 (req_id=2)
+2025-04-16 02:53:09,773 - TraderWorkstation - INFO - Showing chart
+2025-04-16 02:53:09,774 - TraderWorkstation - ERROR - IB API Error 162: Historical Market Data Service error message:API scanner subscription cancelled: 7002 (req_id=7002)
+2025-04-16 02:53:12,266 - TraderWorkstation - INFO - Requesting bar data for symbol=TSM, timeframe=15 mins
+2025-04-16 02:53:12,266 - TraderWorkstation - DEBUG - Sending historical data request for TSM
+2025-04-16 02:53:50,589 - TraderWorkstation - INFO - Requesting bar data for symbol=TSM, timeframe=1 hour
+2025-04-16 02:53:50,590 - TraderWorkstation - DEBUG - Sending historical data request for TSM
+2025-04-16 02:53:51,795 - TraderWorkstation - INFO - Requesting bar data for symbol=TSM, timeframe=5 mins
+2025-04-16 02:53:51,795 - TraderWorkstation - DEBUG - Sending historical data request for TSM
+2025-04-16 02:53:52,953 - TraderWorkstation - INFO - Requesting bar data for symbol=TSM, timeframe=15 mins
+2025-04-16 02:53:52,953 - TraderWorkstation - DEBUG - Sending historical data request for TSM
+2025-04-16 02:53:52,955 - TraderWorkstation - ERROR - IB API Error 322: Error processing request.-'bK' : cause - Duplicate ticker ID for API historical data query (req_id=2)
+2025-04-16 02:53:53,958 - TraderWorkstation - INFO - Requesting bar data for symbol=TSM, timeframe=1 hour
+2025-04-16 02:53:53,958 - TraderWorkstation - DEBUG - Sending historical data request for TSM
+2025-04-16 02:55:16,052 - TraderWorkstation - INFO - Requesting bar data for symbol=TSM, timeframe=15 mins
+2025-04-16 02:55:16,055 - TraderWorkstation - DEBUG - Sending historical data request for TSM
+2025-04-16 02:55:17,373 - TraderWorkstation - INFO - Requesting bar data for symbol=TSM, timeframe=5 mins
+2025-04-16 02:55:17,374 - TraderWorkstation - DEBUG - Sending historical data request for TSM
+2025-04-16 02:55:36,808 - TraderWorkstation - INFO - Requesting bar data for symbol=TSM, timeframe=15 mins
+2025-04-16 02:55:36,809 - TraderWorkstation - DEBUG - Sending historical data request for TSM
+2025-04-16 02:55:41,493 - TraderWorkstation - INFO - Requesting bar data for symbol=TSM, timeframe=1 hour
+2025-04-16 02:55:41,493 - TraderWorkstation - DEBUG - Sending historical data request for TSM
+2025-04-16 02:55:42,496 - TraderWorkstation - INFO - Requesting bar data for symbol=TSM, timeframe=15 mins
+2025-04-16 02:55:42,496 - TraderWorkstation - DEBUG - Sending historical data request for TSM
+2025-04-16 02:55:43,501 - TraderWorkstation - INFO - Requesting bar data for symbol=TSM, timeframe=1 hour
+2025-04-16 02:55:43,502 - TraderWorkstation - DEBUG - Sending historical data request for TSM
+2025-04-16 02:55:44,503 - TraderWorkstation - INFO - Requesting bar data for symbol=TSM, timeframe=15 mins
+2025-04-16 02:55:44,503 - TraderWorkstation - DEBUG - Sending historical data request for TSM
+2025-04-16 02:57:29,607 - TraderWorkstation - INFO - Starting Trader Workstation application
+2025-04-16 02:57:29,607 - TraderWorkstation - INFO - Initializing PTLClient with host=127.0.0.1, port=7497, client_id=1
+2025-04-16 02:57:29,616 - TraderWorkstation - INFO - PTLClient thread started
+2025-04-16 02:57:29,618 - TraderWorkstation - DEBUG - Chart instance created
+2025-04-16 02:57:29,618 - TraderWorkstation - DEBUG - Received next valid order ID: 1
+2025-04-16 02:57:29,618 - TraderWorkstation - INFO - Loading initial chart for TSM
+2025-04-16 02:57:29,618 - TraderWorkstation - INFO - IB API Info: Market data farm connection is OK:usfarm.nj
+2025-04-16 02:57:29,618 - TraderWorkstation - INFO - Requesting bar data for symbol=TSM, timeframe=5 mins
+2025-04-16 02:57:29,618 - TraderWorkstation - INFO - IB API Info: Market data farm connection is OK:usfuture
+2025-04-16 02:57:29,618 - TraderWorkstation - DEBUG - Sending historical data request for TSM
+2025-04-16 02:57:29,618 - TraderWorkstation - INFO - IB API Info: Market data farm connection is OK:cashfarm
+2025-04-16 02:57:29,619 - TraderWorkstation - INFO - IB API Info: Market data farm connection is OK:usfarm
+2025-04-16 02:57:29,619 - TraderWorkstation - INFO - IB API Info: HMDS data farm connection is OK:cashhmds
+2025-04-16 02:57:29,619 - TraderWorkstation - INFO - IB API Info: HMDS data farm connection is OK:ushmds
+2025-04-16 02:57:29,619 - TraderWorkstation - INFO - IB API Info: Sec-def data farm connection is OK:secdefnj
+2025-04-16 02:57:30,621 - TraderWorkstation - INFO - Running market scanner
+2025-04-16 02:57:30,685 - TraderWorkstation - ERROR - IB API Error 492: You must subscribe for additional permissions to obtain precise results for scanner.Parameter:Hot Contracts by Volume,Filter:Option Volume;Real-Time Market Data:NYSE, AMEX, ARCA, NMS, Small Cap, BATS (req_id=7002)
+2025-04-16 02:57:31,238 - TraderWorkstation - ERROR - IB API Error 2176: Warning: Your API version does not support fractional share size rules. Please upgrade to a minimum version 163. Trimmed value 8037.55 to 8037 (req_id=2)
+2025-04-16 02:57:31,627 - TraderWorkstation - INFO - Showing chart
+2025-04-16 02:57:31,627 - TraderWorkstation - ERROR - IB API Error 162: Historical Market Data Service error message:API scanner subscription cancelled: 7002 (req_id=7002)
+2025-04-16 02:57:33,836 - TraderWorkstation - INFO - Requesting bar data for symbol=TSM, timeframe=15 mins
+2025-04-16 02:57:33,837 - TraderWorkstation - DEBUG - Sending historical data request for TSM
+2025-04-16 02:57:35,259 - TraderWorkstation - INFO - Requesting bar data for symbol=TSM, timeframe=1 hour
+2025-04-16 02:57:35,259 - TraderWorkstation - DEBUG - Sending historical data request for TSM
+2025-04-16 02:57:37,862 - TraderWorkstation - INFO - Requesting bar data for symbol=TSM, timeframe=5 mins
+2025-04-16 02:57:37,863 - TraderWorkstation - DEBUG - Sending historical data request for TSM
+2025-04-16 02:57:38,868 - TraderWorkstation - INFO - Requesting bar data for symbol=TSM, timeframe=15 mins
+2025-04-16 02:57:38,868 - TraderWorkstation - DEBUG - Sending historical data request for TSM
+2025-04-16 02:57:38,870 - TraderWorkstation - ERROR - IB API Error 322: Error processing request.-'bK' : cause - Duplicate ticker ID for API historical data query (req_id=2)
+2025-04-16 02:57:39,870 - TraderWorkstation - INFO - Requesting bar data for symbol=TSM, timeframe=1 hour
+2025-04-16 02:57:39,870 - TraderWorkstation - DEBUG - Sending historical data request for TSM
+2025-04-16 02:57:40,876 - TraderWorkstation - INFO - Requesting bar data for symbol=TSM, timeframe=5 mins
+2025-04-16 02:57:40,876 - TraderWorkstation - DEBUG - Sending historical data request for TSM
+2025-04-16 03:00:04,419 - TraderWorkstation - INFO - Starting Trader Workstation application
+2025-04-16 03:00:04,420 - TraderWorkstation - INFO - Initializing PTLClient with host=127.0.0.1, port=7497, client_id=1
+2025-04-16 03:00:04,431 - TraderWorkstation - INFO - PTLClient thread started
+2025-04-16 03:00:04,434 - TraderWorkstation - DEBUG - Chart instance created
+2025-04-16 03:00:04,435 - TraderWorkstation - DEBUG - Received next valid order ID: 1
+2025-04-16 03:00:04,435 - TraderWorkstation - INFO - Loading initial chart for TSM
+2025-04-16 03:00:04,435 - TraderWorkstation - INFO - IB API Info: Market data farm connection is OK:usfarm.nj
+2025-04-16 03:00:04,435 - TraderWorkstation - INFO - IB API Info: Market data farm connection is OK:usfuture
+2025-04-16 03:00:04,435 - TraderWorkstation - INFO - IB API Info: Market data farm connection is OK:cashfarm
+2025-04-16 03:00:04,435 - TraderWorkstation - INFO - IB API Info: Market data farm connection is OK:usfarm
+2025-04-16 03:00:04,435 - TraderWorkstation - INFO - IB API Info: HMDS data farm connection is OK:cashhmds
+2025-04-16 03:00:04,436 - TraderWorkstation - INFO - IB API Info: HMDS data farm connection is OK:ushmds
+2025-04-16 03:00:04,436 - TraderWorkstation - INFO - IB API Info: Sec-def data farm connection is OK:secdefnj
+2025-04-16 03:00:04,436 - TraderWorkstation - ERROR - IB API Error 366: No historical data query found for ticker id:2 (req_id=2)
+2025-04-16 03:00:04,540 - TraderWorkstation - INFO - Requesting bar data for symbol=TSM, timeframe=5 mins
+2025-04-16 03:00:04,540 - TraderWorkstation - DEBUG - Sending historical data request for TSM
+2025-04-16 03:00:05,046 - TraderWorkstation - INFO - Running market scanner
+2025-04-16 03:00:05,108 - TraderWorkstation - ERROR - IB API Error 492: You must subscribe for additional permissions to obtain precise results for scanner.Parameter:Hot Contracts by Volume,Filter:Option Volume;Real-Time Market Data:NYSE, AMEX, ARCA, NMS, Small Cap, BATS (req_id=7002)
+2025-04-16 03:00:06,039 - TraderWorkstation - ERROR - IB API Error 2176: Warning: Your API version does not support fractional share size rules. Please upgrade to a minimum version 163. Trimmed value 8037.55 to 8037 (req_id=2)
+2025-04-16 03:00:06,060 - TraderWorkstation - DEBUG - Received 2340 bars of data
+2025-04-16 03:00:06,064 - TraderWorkstation - INFO - Showing chart
+2025-04-16 03:00:06,106 - TraderWorkstation - ERROR - IB API Error 162: Historical Market Data Service error message:API scanner subscription cancelled: 7002 (req_id=7002)
+2025-04-16 03:00:21,676 - TraderWorkstation - ERROR - IB API Error 366: No historical data query found for ticker id:2 (req_id=2)
+2025-04-16 03:00:21,780 - TraderWorkstation - INFO - Requesting bar data for symbol=TSM, timeframe=15 mins
+2025-04-16 03:00:21,781 - TraderWorkstation - DEBUG - Sending historical data request for TSM
+2025-04-16 03:00:22,779 - TraderWorkstation - DEBUG - Received 780 bars of data
+2025-04-16 03:00:23,462 - TraderWorkstation - ERROR - IB API Error 366: No historical data query found for ticker id:2 (req_id=2)
+2025-04-16 03:00:23,565 - TraderWorkstation - INFO - Requesting bar data for symbol=TSM, timeframe=1 hour
+2025-04-16 03:00:23,566 - TraderWorkstation - DEBUG - Sending historical data request for TSM
+2025-04-16 03:00:24,378 - TraderWorkstation - ERROR - IB API Error 162: Historical Market Data Service error message:API historical data query cancelled: 2 (req_id=2)
+2025-04-16 03:00:24,482 - TraderWorkstation - INFO - Requesting bar data for symbol=TSM, timeframe=5 mins
+2025-04-16 03:00:24,483 - TraderWorkstation - DEBUG - Sending historical data request for TSM
+2025-04-16 03:00:25,824 - TraderWorkstation - DEBUG - Received 2340 bars of data
