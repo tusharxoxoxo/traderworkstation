@@ -15,3 +15,5 @@
 - I wasn't able to implement the timeframe feature of 5 minutes, 1 hours, 1 day, cause whenever i try to re-render the chart, it crashes, i am yet to figure out is this issue because of my implementation or how i am trying to lightweights charts lib with pywebview
 
 - I after the initial setup it was smooth sailing, the only issue i faced was with the charting library, i was using lightweight charts, but it was not rendering properly
+
+## I have attached the screen shots of how it's currently looking
