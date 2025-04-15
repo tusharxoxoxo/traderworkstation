@@ -17,3 +17,5 @@
 - I after the initial setup it was smooth sailing, the only issue i faced was with the charting library, i was using lightweight charts, but it was not rendering properly
 
 ## I have attached the screen shots of how it's currently looking
+![image](https://github.com/user-attachments/assets/c4af42cd-70ea-4edc-b322-59db0a904cfe)
+![image](https://github.com/user-attachments/assets/1d1d3f73-9f2f-491d-b598-f83957d53cb2)
