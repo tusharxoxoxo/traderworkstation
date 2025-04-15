@@ -9,6 +9,10 @@ from ibapi.client import EClient
 from ibapi.wrapper import EWrapper
 from ibapi.client import Contract, Order, ScannerSubscription
 from ibapi.tag_value import TagValue
+from database import MarketDatabase
+
+# Initialize database
+db = MarketDatabase()
 
 # create a queue for data coming from Interactive Brokers API
 data_queue = queue.Queue()
@@ -68,7 +72,10 @@ class PTLClient(EWrapper, EClient):
             "volume": int(bar.volume),
         }
 
-        # Put the data into the queue
+        # Store historical data in database and queue
+        db.insert_historical_data(
+            chart.topbar["symbol"].value, chart.topbar["timeframe"].value, data
+        )
         data_queue.put(data)
 
     # callback when all historical data has been received
@@ -94,6 +101,10 @@ class PTLClient(EWrapper, EClient):
         mktCapPrice,
     ):
         print(f"order status {order_id} {status} {filled} {remaining} {avgFillPrice}")
+        # Store order status in database
+        db.insert_order_status(
+            order_id, status, filled, remaining, avgFillPrice, lastFillPrice
+        )
 
     # callback for when a scan finishes
     def scannerData(
@@ -114,7 +125,8 @@ class PTLClient(EWrapper, EClient):
 
         print(data)
 
-        # Put the data into the queue
+        # Store scanner data in database and queue
+        db.insert_scanner_data(data)
         data_queue.put(data)
 
 
@@ -332,6 +344,13 @@ def update_chart():
             ema_20_line.set(ema_20_data)
             current_lines.append(ema_20_line)
 
+        # Price Line
+        price_data = pd.DataFrame({"time": df["date"], "Price": df["close"]})
+        if not price_data.empty:
+            price_line = chart.create_line(name="Price", color="#32CD32")
+            price_line.set(price_data)
+            current_lines.append(price_line)
+
         # Turn off spinner after successful update
         print("Turning off spinner.")
         chart.spinner(False)
@@ -370,7 +389,7 @@ if __name__ == "__main__":
     get_bar_data(INITIAL_SYMBOL, "5 mins")
 
     # run a market scanner
-    do_scan("HOT_BY_VOLUME")
+    #do_scan("HOT_BY_VOLUME")
 
     # create a button for taking a screenshot of the chart
     #    chart.topbar.button("screenshot", "Screenshot", func=take_screenshot)
